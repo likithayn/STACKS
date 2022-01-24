@@ -1,4 +1,4 @@
-//STACK IMPLEMENTATION USING DYNAMIC MEMORY ALLOCATION 
+//STACK IMPLEMENTATION USING DYNAMIC MEMORY ALLOCATION//
 #include <stdio.h>
 #include<stdlib.h>
 int * push(int* S,int * MAX_SIZE,int * top, int elem)
@@ -68,6 +68,7 @@ int main()
             case 3:display(S,top);
                     break;
             case 4:exit(0);
+            default:printf("invalid choice\n");
             
         }
     } 
