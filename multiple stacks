@@ -1,3 +1,4 @@
+// IMPLEMENTATION OF MULTIPLE STACKS //
 #include <stdio.h>
 #include<stdlib.h>
 #define MAX_SIZE 12
