@@ -19,7 +19,6 @@ E * push(E * S,int * MAX_SIZE,int * top)
     //stack overflow condition 
         (*MAX_SIZE)=(*MAX_SIZE)*2;//increasing stack size
         S=(E*)realloc(S,sizeof(E)*(*MAX_SIZE));
-        printf("%d\n",(*MAX_SIZE));
         (*top)++;
         printf("enter the employe id and name\n");
         scanf("%d%s",&(S[(*top)].eid),S[(*top)].ename);
